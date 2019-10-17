@@ -42,6 +42,8 @@ async def on_message(message):
         await message.channel.send("잘가 다음에보장!!")
     if message.content.startswith("=명령어"):
         await message.channel.send("봇이 할말")
+       if message.content.startswith("=명령어"):
+        await message.channel.send("아무도 안가르켜줄꺼")
 
 
 
