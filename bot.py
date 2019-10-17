@@ -18,7 +18,7 @@ async def on_ready():
 @client.event
 async def on_message(message):
     if message.content.startswith("=서준아"):
-        await message.channel.send("왓")
+        await message.channel.send("?.뭐.왓")
     if message.content.startswith("=심심해"):
         await message.channel.send("배그하던가 아무게임하던가.노래들으러가던가.공부하러가")
     if message.content.startswith("=몇살이니?"):
@@ -41,7 +41,7 @@ async def on_message(message):
     if message.content.startswith("=ㅂㅂ"):
         await message.channel.send("잘가 다음에보장!!")
     if message.content.startswith("=명령어"):
-        await message.channel.send("안알랴줌")
+        await message.channel.send("알빠?알파?")
 
 
 
