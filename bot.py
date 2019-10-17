@@ -29,13 +29,13 @@ async def on_message(message):
         await message.channel.send("너보다는 잘할듯 ^^")
     if message.content.startswith("=도움"):
         await message.channel.send("명령어들 입니다")
-        await message.channel.send("=서준아")
-        await message.channel.send("=심심해")
-        await message.channel.send("=몇살이니?")
-        await message.channel.send("=욕잘함?")
-        await message.channel.send("=ㅎㅇ")
-        await message.channel.send("=ㅂㅂ")
-        await message.channel.send("=어디살아")
+        await message.channel.send("#=서준아")
+        await message.channel.send("#=심심해")
+        await message.channel.send("#=몇살이니?")
+        await message.channel.send("#=욕잘함?")
+        await message.channel.send("#=ㅎㅇ")
+        await message.channel.send("#=ㅂㅂ")
+        await message.channel.send("#=어디살아")
     if message.content.startswith("=ㅎㅇ"):
         await message.channel.send("안녕 나는 장애서준이노예야")
     if message.content.startswith("=어디살아"):
@@ -45,6 +45,10 @@ async def on_message(message):
         await message.channel.send("그래 다음에보장!!!")
     if message.content.startswith("=명령어"):
         await message.channel.send("=도움쳐봐 ;;")
+        if message.content.startswith("=배그할래?"):
+            await message.channel.send("=나 일하러가봐야되;;우리형한테문의해!") 
+          
+          
 
 
 
