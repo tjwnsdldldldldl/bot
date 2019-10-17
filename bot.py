@@ -42,8 +42,7 @@ async def on_message(message):
         await message.channel.send("니마음속에")
     if message.content.startswith("=ㅂㅂ"):
         await message.channel.send("잘가 다음에보장!!")
-   
-       await message.channel.send("그래 다음에보장!!!")
+        await message.channel.send("그래 다음에보장!!!")
     if message.content.startswith("=명령어"):
         await message.channel.send("=도움쳐봐 ;;")
 
