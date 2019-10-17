@@ -35,7 +35,7 @@ async def on_message(message):
         await message.channel.send("#=욕잘함?")
         await message.channel.send("#=ㅎㅇ")
         await message.channel.send("#=ㅂㅂ")
-        await message.channel.send("#=어디살아?")
+        await message.channel.send("#=어디살아")
     if message.content.startswith("=ㅎㅇ"):
         await message.channel.send("안녕 나는 장애서준이노예야")
     if message.content.startswith("=어디살아"):
