@@ -9,7 +9,8 @@ async def on_ready():
     print("로그인중")
     print("준비됨")
     game = discord.Game("명령어 준비됨")
-    await client.change_presence(status=discord.Status.online, activity=discord.Game(name="{} 개의 도시와 {} 명의 주민이 함께하는중 ". format(len(client.guilds), len(client.users))))
+    await client.change_presence(status=discord.Status.online, activity=discord.Game(name="봇 오류시 언어도단 서준(하나)#7777ㅇ
+  ". format(len(client.guilds), len(client.users))))
     
 
 
