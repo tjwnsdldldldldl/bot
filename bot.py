@@ -9,8 +9,7 @@ async def on_ready():
     print("로그인중")
     print("준비됨")
     game = discord.Game("명령어 준비됨")
-    await client.change_presence(status=discord.Status.online, activity=discord.Game(name="봇 오류시 언어도단 서준(하나)#7777ㅇ
-  ". format(len(client.guilds), len(client.users))))
+    await client.change_presence(status=discord.Status.online, activity=discord.Game(name="봇 오류시 ". format(len(client.guilds), len(client.users))))
     
 
 
@@ -18,7 +17,7 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-    if message.content.startswith("=서준아"):
+    if message.content.startswith("서준봇!"):
         await message.channel.send("뭐")
         await message.channel.send("왓")
         await message.channel.send("?")
