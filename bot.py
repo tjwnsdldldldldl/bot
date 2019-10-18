@@ -22,7 +22,7 @@ async def on_message(message):
         await message.channel.send("왓")
         await message.channel.send("?")
     if message.content.startswith("심심해"):
-        await message.channel.send(배그하던가 아무게임하던가.노래들으러가던가.공부하러가")
+        await message.channel.send("배그하던가 아무게임하던가.노래들으러가던가.공부하러가")
     if message.content.startswith("몇살이니?"):
         await message.channel.send("관셈을보살")
     if message.content.startswith("욕잘함?"):
