@@ -33,8 +33,8 @@ async def on_message(message):
         await message.channel.send("#.심심해")
         await message.channel.send("#.몇살이니?")
         await message.channel.send("#.욕잘함?")
-        await message.channel.send("#.ㅇ)
-        await message.channel.send("#.ㅂ")
+        await message.channel.send("#.ㅎㅇ)
+        await message.channel.send("#.")
         await message.channel.send("#.어디살아")
         await message.channel.send("#.브금추천좀")                            
     if message.content.startswith(".ㅎㅇ"):
