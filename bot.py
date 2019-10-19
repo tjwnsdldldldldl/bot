@@ -45,7 +45,7 @@ async def on_message(message):
         await message.channel.send("잘가 다음에보장!!")
         await message.channel.send("그래 다음에보장!!!")
     if message.content.startswith(".브금추천좀"):
-        await message.channel.send("요즘시대는https://www.youtube.com/watch?v=QNIokOJW8CM&t=2s")
+        await message.channel.send(".요즘시대는https://www.youtube.com/watch?v=QNIokOJW8CM&t=2s")
     if message.content.startswith(".배그할래?"):
         await message.channel.send("나 일하러가봐야되;;우리형한테문의해!") 
           
