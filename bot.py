@@ -21,13 +21,13 @@ async def on_message(message):
         await message.channel.send("뭐")
         await message.channel.send("왓")
         await message.channel.send("?")
-    if message.content.startswith("=심심해"):
-        await message.channel.send("배그하던가 아무게임하던가.노래들으러가던가.공부하러가")
-    if message.content.startswith("=몇살이니?"):
+    if message.content.startswith("/심심해"):
+        await message.channel.send("배그하던가 아무게임하던가.노래들으러가던가.공부하러가.밥먹으러가든가")
+    if message.content.startswith("/몇살이니?"):
         await message.channel.send("관셈을보살")
-    if message.content.startswith("=욕잘함?"):
+    if message.content.startswith("/욕잘함?"):
         await message.channel.send("너보다는 잘할듯 ^^")
-    if message.content.startswith("／help"):
+    if message.content.startswith(".help"):
         await message.channel.send("명령어들 입니다")
         await message.channel.send("#/서준아")
         await message.channel.send("#/심심해")
